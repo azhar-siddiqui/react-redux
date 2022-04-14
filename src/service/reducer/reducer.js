@@ -10,6 +10,7 @@ export default function cardItems(state = [], action) {
       return [...state, { cardData: action.data }];
       break;
     case REMOVE_TO_CART:
+      state.pop();
       return [...state];
       break;
     default:

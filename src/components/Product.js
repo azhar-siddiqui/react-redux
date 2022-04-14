@@ -1,7 +1,7 @@
 import React from "react";
 
 const Product = (props) => {
-  console.log(props);
+  console.log("remove to cart handler", props);
   return (
     <div className="product__container">
       <h2>Product Components</h2>
